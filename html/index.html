@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<div id="popup"
+    style="display: none; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; background: rgba(0, 16, 255, 0.56); padding: 20px 40px; line-height: 33px; font-size: 24px; color: rgb(255, 255, 255); border-radius: 25px;">
+    <div id="text">TOTO sdcsdcdscTATA TUTU HAHA</div>
+    <div id="next" style="
+            display: none;
+            background: #AAA;
+            height: 35px;
+            line-height: 35px;
+            border-radius: 10px;
+            display: inline-block;
+            padding: 0 10px;
+            font-size: 19px;
+            margin-top: 14px;
+            cursor: pointer;
+        ">Suivant</div>
+</div>
+
+<div id="popupWeazel" style="
+        display: none;
+        position: fixed;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%, -50%);
+        background: rgb(80, 0, 0);
+        padding: 75px 240px;
+        line-height: 33px;
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+        border: 2px solid;
+        border-color: rgb(0 0 0);
+    ">
+    <div id="textWeazel" style="
+        position: fixed;
+        left: 30.7%;
+        top: 25%;
+        font-size: 16px;
+        width: 329px;
+        height: 87px;
+        overflow: hidden;
+        line-height: 1.4;
+    ">Text</div>
+    <div id="textWeazelBy" style="
+        position: fixed;
+        left: 31%;
+        top: 83%;
+        font-size: 12px;
+        font-family: cursive;
+    ">Journaliste :</div>
+    <div id="textWeazelName" style="
+        position: fixed;
+        left: 46%;
+        top: 83%;
+        font-size: 12px;
+        font-family: cursive;
+    ">Name</div>
+    <div id="popupWeazel3" style="
+        display: block;
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        background: rgb(53 0 0);
+        padding: 0px 147.7px;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        border: 1px solid;
+        border-color: rgb(0 0 0);
+    ">
+        <div id="text" style="
+            position: relative;
+            left: 79%;
+            font-family: fantasy;
+        ">Breaking News</div>
+    </div>
+    <img id="img" src="https://i.imgur.com/PCcYC2n.jpg" style="
+        display: block;
+        position: fixed;
+        left: 16%;
+        transform: translate(-50%, -50%);
+        height: 86%;
+        width: 28%;
+        border: 1px solid;
+        border-color: rgb(0 0 0);
+    ">
+</div>
+
+<div id="popupWeazelAnnouncement" style="
+        display: none;
+        position: fixed;
+        left: 50%;
+        top: 90%;
+        transform: translate(-50%, -50%);
+        background: rgb(80, 0, 0);
+        padding: 75px 240px;
+        line-height: 33px;
+        font-size: 24px;
+        color: rgb(255, 255, 255);
+        border: 2px solid;
+        border-color: rgb(0 0 0);
+    ">
+    <div id="textWeazelAnnouncement" style="
+        position: fixed;
+        left: 30.7%;
+        top: 25%;
+        font-size: 16px;
+        width: 329px;
+        height: 87px;
+        overflow: hidden;
+        line-height: 1.4;
+    ">Text</div>
+    <div id="textWeazelAnnouncementBy" style="
+        position: fixed;
+        left: 31%;
+        top: 83%;
+        font-size: 12px;
+        font-family: cursive;
+    ">Journaliste :</div>
+    <div id="textWeazelAnnouncementName" style="
+        position: fixed;
+        left: 46%;
+        top: 83%;
+        font-size: 12px;
+        font-family: cursive;
+    ">Name</div>
+    <div id="popupWeazelAnnouncement3" style="
+        display: block;
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        background: rgb(53 0 0);
+        padding: 0px 185.7px;
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        border: 1px solid;
+        border-color: rgb(0 0 0);
+    ">
+        <div id="textAnnouncement" style="
+            position: relative;
+            left: 169%;
+            font-family: fantasy;
+        ">Annonce</div>
+    </div>
+    <img id="img" src="https://i.imgur.com/PCcYC2n.jpg" style="
+        display: block;
+        position: fixed;
+        left: 16%;
+        transform: translate(-50%, -50%);
+        height: 86%;
+        width: 28%;
+        border: 1px solid;
+        border-color: rgb(0 0 0);
+    ">
+</div>
+
+<svg id="arrow" version="1.0" xmlns="http://www.w3.org/2000/svg" width="1280.000000pt" height="918.000000pt"
+    viewBox="0 0 1280.000000 918.000000" preserveAspectRatio="xMidYMid meet" style="
+        display: none;
+        position: fixed;
+        width: 120px;
+        left: 300px;
+        height: 295px;
+        transform: rotate(180deg);
+        bottom: 100px;
+    ">
+    <metadata>
+        Created by potrace 1.15, written by Peter Selinger 2001-2017
+    </metadata>
+    <g transform="translate(0.000000,918.000000) scale(0.100000,-0.100000)" fill="#7600FF" stroke="none">
+        <path d="M11895 9174 c-27 -2 -135 -8 -240 -14 -690 -39 -1988 -185 -2968
+    -335 -1506 -231 -2361 -417 -2622 -570 -100 -58 -148 -158 -125 -261 20 -88
+    70 -163 354 -529 126 -161 253 -344 306 -439 40 -71 54 -56 -155 -166 -471
+    -246 -1305 -650 -2170 -1050 -104 -48 -224 -104 -265 -123 -41 -19 -302 -139
+    -580 -267 -1648 -758 -1955 -901 -2438 -1134 -333 -160 -639 -318 -774 -400
+    -167 -102 -224 -183 -216 -306 10 -135 74 -222 438 -594 451 -461 612 -668
+    771 -986 145 -292 229 -605 334 -1245 61 -372 90 -498 136 -592 55 -114 151
+    -173 261 -160 172 21 659 367 2688 1907 1681 1276 2511 1889 3099 2289 123 83
+    167 108 173 98 12 -22 65 -219 87 -324 12 -54 41 -225 66 -380 53 -332 70
+    -412 100 -473 45 -90 101 -126 198 -131 53 -2 62 1 132 45 281 178 1050 1093
+    2125 2526 1097 1463 1983 2776 2139 3170 66 169 64 250 -10 334 -76 86 -173
+    106 -529 110 -146 2 -287 2 -315 0z"></path>
+    </g>
+</svg>
+
+<body>
+    <style>
+        iframe {
+            border: 1px solid black;
+            width: 100%;
+        }
+
+        .output {
+            background: #eee;
+        }
+    </style>
+    <iframe id="webCarDealer"
+        title="Test"
+        width="700"
+        height="735"
+        style="display: none"
+        src="http://luxurycar.adevia-rp.com/">
+    </iframe>
+
+    <script>
+        (async () => {
+            var next = document.getElementById('next');
+            window.addEventListener('click', () => {
+                popup.style.display = 'none';
+                arrow.style.display = 'none';
+                webCarDealer.style.display = 'none';
+                fetch('http://ad_core/NUIFocusOff',{ method: 'POST', body: '{}' })
+                fetch('http://ad_core/NUIFocusOff_WebCarDealer',{ method: 'POST', body: '{}' })
+            })
+
+            document.onkeyup = function(data){
+                if (data.which == 27){
+                    popup.style.display = 'none';
+                    arrow.style.display = 'none';
+                    fetch('http://ad_core/NUIFocusOff',{ method: 'POST', body: '{}' })
+                    fetch('http://ad_core/NUIFocusOff_WebCarDealer',{ method: 'POST', body: '{}' })
+                }
+            }
+
+            window.addEventListener('message', function (event) {
+                if (event.data.type === "tuto") {
+                    if (event.data.action === "popup") {
+                        var popup = document.getElementById('popup');
+                        var text = document.getElementById('text');
+                        popup.style.display = 'block';
+                        text.innerHTML = event.data.value;
+                    }
+                    if (event.data.action === "arrow") {
+                        arrow.style.display = 'block';
+                    }
+                }
+
+                if (event.data.type === "getcoords") {
+                    var node = document.createElement('textarea');
+                    var selection = document.getSelection();
+
+                    node.textContent = event.data.coords;
+                    document.body.appendChild(node);
+
+                    selection.removeAllRanges();
+                    node.select();
+                    document.execCommand('copy');
+
+                    selection.removeAllRanges();
+                    document.body.removeChild(node);
+                }
+
+                if (event.data.type === "WebCarDealer") {
+                    if (event.data.action === "openWeb") {
+                        /* var page = document.getElementById('webCarDealer'); */
+                        webCarDealer.style.display = 'block';
+                    }
+                    if (event.data.action === "closeWeb") {
+                        webCarDealer.style.display = 'none';
+                    }
+                }
+
+                if (event.data.type === "weazel") {
+                    if (event.data.action === "BreakingNews") {
+                        var popupWeazel = document.getElementById('popupWeazel');
+                        var textWeazel = document.getElementById('textWeazel');
+                        var textWeazelName = document.getElementById('textWeazelName');
+                        popupWeazel.style.display = 'block';
+                        textWeazel.innerHTML = event.data.value;
+                        textWeazelName.innerHTML = event.data.name;
+                    }
+                    if (event.data.action === "announcement") {
+                        var popupWeazelAnnouncement = document.getElementById('popupWeazelAnnouncement');
+                        var textWeazelAnnouncement = document.getElementById('textWeazelAnnouncement');
+                        var textWeazelAnnouncementName = document.getElementById('textWeazelAnnouncementName');
+                        popupWeazelAnnouncement.style.display = 'block';
+                        textWeazelAnnouncement.innerHTML = event.data.value;
+                        textWeazelAnnouncementName.innerHTML = event.data.name;
+                    }
+                    if (event.data.action === "close") {
+                        var popupWeazel = document.getElementById('popupWeazel');
+                        var popupWeazelAnnouncement = document.getElementById('popupWeazelAnnouncement');
+                        popupWeazel.style.display = 'none';
+                        popupWeazelAnnouncement.style.display = 'none';
+                    }
+                }
+            });
+        })();
+    </script>
+</body>
+
+</html>
